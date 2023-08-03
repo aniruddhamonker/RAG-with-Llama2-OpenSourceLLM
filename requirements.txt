@@ -1,7 +1,7 @@
 langchain
-gpt4all==0.3.4
 tqdm
 sentence_transformers
 chromadb==0.3.23
 InstructorEmbedding
 llama-cpp-python==0.1.66   #requires gcc-11 version installed
+streamlit
