@@ -1,7 +1,7 @@
 langchain
-tqdm
 sentence_transformers
 chromadb==0.3.23
 InstructorEmbedding
-llama-cpp-python==0.1.66   #requires gcc-11 version installed
+llama-cpp-python==0.1.10   #requires gcc-11 version installed
 streamlit
+streamlit_chat
