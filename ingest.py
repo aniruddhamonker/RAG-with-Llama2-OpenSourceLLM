@@ -126,8 +126,8 @@ class Vectorstore:
         embeddings = llm.get_embeddings()
         #import pdb; pdb.set_trace()
         db = Chroma.from_documents(
-            data_chunks,persist_directory=PERSIST_DIRECTORY, 
-            embedding_function=embeddings, 
+            data_chunks, persist_directory=PERSIST_DIRECTORY, 
+            embedding=embeddings, 
             client_settings=CHROMA_SETTINGS
             )
         db.persist()
