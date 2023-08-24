@@ -1,8 +1,8 @@
-langchain
-sentence_transformers
-chromadb
-InstructorEmbedding
-llama-cpp-python  #requires gcc-11 version installed
-streamlit
-streamlit_chat
-unstructured
+langchain==0.0.268
+sentence_transformers==2.2.2
+chromadb==0.3.23
+InstructorEmbedding==1.0.1
+llama-cpp-python==0.1.78  #requires gcc-11 version installed
+streamlit==1.25.0
+streamlit_chat==0.1.1
+unstructured==0.10.5
