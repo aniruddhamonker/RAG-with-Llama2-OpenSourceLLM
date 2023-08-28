@@ -15,7 +15,7 @@ not to mention the data remains protected inside an organizations domain.
 
 1. clone the repository from GitHub:
 
-git clone https://github.com/aniruddhamonker/llm-document-retrieval.git
+* git clone https://github.com/aniruddhamonker/llm-document-retrieval.git
 
 2. Install requirements
 
