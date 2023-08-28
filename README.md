@@ -20,25 +20,30 @@ git clone https://github.com/aniruddhamonker/llm-document-retrieval.git
 2. Install requirements
 
 cd llm-document-retrieval
+
 pip install -r requirements.txt
+
+3. download Llama2-chat 7B parameter open source model and instructor-large embedding model from hugging face library
+
+mkdir models && cd models
+
+wget https://huggingface.co/localmodels/Llama-2-7B-Chat-ggml/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin
+
+wget https://huggingface.co/hkunlp/instructor-large/resolve/main/pytorch_model.bin
+
+4. If you are going to use OpenAI GPT models , then update .env file with your Open AI api key
+
+cd ..
+mv .env.bak .env
+
+"update .env file with your API key"
+
+5. 
+
+
+
 
 
 Usage
 To use the LLM Document Retrieval system, you need to first download the pre-trained LLM model from Hugging Face:
 
-pip install transformers
-Copy
-from transformers import AutoTokenizer, AutoModelForCausalLM
-
-tokenizer = AutoTokenizer.from_pretrained("gpt2")
-model = AutoModelForCausalLM.from_pretrained("gpt2")
-Copy
-Then you can use the retrieve_documents function to retrieve documents based on a user’s query:
-
-from llm_document_retrieval import retrieve_documents
-
-query = "What is the capital of France?"
-documents = retrieve_documents(query, model, tokenizer)
-Copy
-Contributing
-Contributions are welcome! If you find any bugs or have any suggestions for improvement, please open an issue or submit a pull request.
