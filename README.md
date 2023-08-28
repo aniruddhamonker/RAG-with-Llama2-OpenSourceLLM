@@ -49,5 +49,5 @@ not to mention the data remains protected inside an organizations domain.
 
 # Demo
 
-image.png
+![image](https://github.com/aniruddhamonker/llm-document-retrieval/assets/17957255/53b90e0d-62a3-4ab9-83af-ed2099944086)
 
