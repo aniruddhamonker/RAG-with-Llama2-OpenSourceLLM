@@ -38,12 +38,14 @@ not to mention the data remains protected inside an organizations domain.
 
     * "update .env file with your API key"
 
-5. 
+5. create a virtual environment and activate
+
+    * virtualenv .
+    * source bin/activate
+
+6. Run the app with Streamlit
+
+    * streamlit run chat_app.py
 
 
-
-
-
-Usage
-To use the LLM Document Retrieval system, you need to first download the pre-trained LLM model from Hugging Face:
 
