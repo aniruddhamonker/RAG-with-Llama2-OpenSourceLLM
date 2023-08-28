@@ -19,9 +19,9 @@ git clone https://github.com/aniruddhamonker/llm-document-retrieval.git
 
 2. Install requirements
 
-cd llm-document-retrieval
+* cd llm-document-retrieval
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
 3. download Llama2-chat 7B parameter open source model and instructor-large embedding model from hugging face library
 
