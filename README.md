@@ -25,18 +25,18 @@ not to mention the data remains protected inside an organizations domain.
 
 3. download Llama2-chat 7B parameter open source model and instructor-large embedding model from hugging face library
 
-mkdir models && cd models
+* mkdir models && cd models
 
-wget https://huggingface.co/localmodels/Llama-2-7B-Chat-ggml/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin
+* wget https://huggingface.co/localmodels/Llama-2-7B-Chat-ggml/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin
 
-wget https://huggingface.co/hkunlp/instructor-large/resolve/main/pytorch_model.bin
+* wget https://huggingface.co/hkunlp/instructor-large/resolve/main/pytorch_model.bin
 
 4. If you are going to use OpenAI GPT models , then update .env file with your Open AI api key
 
-cd ..
-mv .env.bak .env
+* cd ..
+* mv .env.bak .env
 
-"update .env file with your API key"
+* "update .env file with your API key"
 
 5. 
 
