@@ -1,4 +1,4 @@
-# LLM Document Retrieval
+# RAG with Llama-2 7B parameter open sourced model 
 This project is a simple implementation of a document retrieval system using an Open Source Large Language Model (LLM) "LLAMA2" from Meta. 
 
 The LLM Document Retrieval system is designed to retrieve documents based on a user’s query. 
